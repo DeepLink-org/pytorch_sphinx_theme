@@ -4,7 +4,7 @@ This theme is adapted from PyTorch Sphinx Theme, with more configurations allowe
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/DeepLink-org/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
@@ -28,9 +28,9 @@ to `docs/_static/images/logo.png`, then write the following snippet to
 ```css
 .header-logo {
     background-image: url("../images/logo.png");
-    background-size: 110px 40px;
-    height: 40px;
-    width: 110px;
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px;
 }
 ```
 Here, you are recommended to fix the height to `40px` and scale the width according to the logo's aspect ratio.
@@ -55,7 +55,7 @@ html_theme_options = {
         # A link
         {
             'name': 'GitHub',
-            'url': 'https://github.com/open-mmlab/'
+            'url': 'https://github.com/DeepLink-org/'
         }, 
         # A dropdown menu
         {
@@ -63,14 +63,14 @@ html_theme_options = {
             'children': [
                 # A vanilla dropdown item
                 {
-                    'name': 'MMCV',
-                    'url': 'https://github.com/open-mmlab/mmcv',
+                    'name': 'DIOPI',
+                    'url': 'https://github.com/DeepLink-org/DIOPI',
                 },
                 # A dropdown item with a description
                 {
-                    'name': 'MMDetection',
-                    'url': 'https://github.com/open-mmlab/mmdetection',
-                    'description': 'Object detection toolbox and benchmark'
+                    'name': 'DLOP-Bench',
+                    'url': 'https://github.com/DeepLink-org/DLOP-Bench',
+                    'description': 'DLOP-Bench'
                 },
             ], 
             # Optional, determining whether this dropdown menu will always be
