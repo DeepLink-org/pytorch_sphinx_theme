@@ -40,7 +40,7 @@
       <li>{{ title }}</li>
     {% endblock %}
     {% block breadcrumbs_aside %}
-      <li class="pytorch-breadcrumbs-aside">
+      <!--li class="pytorch-breadcrumbs-aside">
         {% if hasdoc(pagename) %}
             {% if github_version in ["main", "master"] %}
             {% set branch_name = "latest" %}
@@ -53,7 +53,7 @@
               <a href="/en/{{ branch_name }}/{{ pagename }}{{ file_suffix }}" class="fa fa-language"> {{ _('Read in English') }}</a>
             {% endif %}
         {% endif %}
-      </li>
+      </li-->
       {% if hasdoc(pagename) and display_github %}
       <li class="pytorch-breadcrumbs-aside">
         {% if check_meta and 'github_url' in meta %}
