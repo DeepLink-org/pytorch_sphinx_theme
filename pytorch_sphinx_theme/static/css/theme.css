@@ -11959,7 +11959,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 
 .pytorch-left-menu ul {
-  padding-left: 0;
+  padding-left: 20px;
 }
 
 .pytorch-right-menu a:link,
