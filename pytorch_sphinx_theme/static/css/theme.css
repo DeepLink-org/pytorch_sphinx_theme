@@ -11908,12 +11908,12 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 .pytorch-left-menu li.toctree-l1.current li.toctree-l2 > ul, .pytorch-left-menu li.toctree-l2.current li.toctree-l3 > ul,
 .pytorch-right-menu li.toctree-l1.current li.toctree-l2 > ul,
 .pytorch-right-menu li.toctree-l2.current li.toctree-l3 > ul {
-  display: none;
+  display: block;
 }
 .pytorch-left-menu li.toctree-l1.current li.toctree-l2.current > ul, .pytorch-left-menu li.toctree-l2.current li.toctree-l3.current > ul,
 .pytorch-right-menu li.toctree-l1.current li.toctree-l2.current > ul,
 .pytorch-right-menu li.toctree-l2.current li.toctree-l3.current > ul {
-  display: block;
+  display: none; /* block */
 }
 .pytorch-left-menu li.toctree-l2.current li.toctree-l3 > a,
 .pytorch-right-menu li.toctree-l2.current li.toctree-l3 > a {
